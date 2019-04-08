@@ -1,0 +1,47 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" href="js/app.js">
+
+  </script>
+  <title>Week 6 - Homework</title>
+</head>
+<body>
+  <h1 class="footballheading">List of Football Players</h1>
+  <form id="new-form-item">
+    <div id="form-wrapper">
+
+      <label for="first_name" class="primary">First Name :</label>
+      <input type="text" id="first_name" required />
+
+      <label for="last_name" class="primary">Last Name :</label>
+      <input type="text" id="last_name" required />
+
+      <label for="age" class="primary">Age :</label>
+      <input type="number" id="age" required />
+
+      <label for="position" class="primary"> Position :</label>
+      <select class="position" name="position">
+        <option value="goalkeeper">Goalkeeper</option>
+        <option value="defender">Defender</option>
+        <option value="midfielder">Midfielder</option>
+        <option value="striker">Striker</option>
+      </select>
+
+      <label for="team" class="primary">Team :</label>
+      <input type="text" id="team" required />
+
+      <input type="submit" value="save" />
+
+    </div>
+  </form>
+  
+  <button id="delete-all">Delete All</button>
+
+  <div id="footballer-list"></div>
+
+</body>
+</html>
